@@ -1,0 +1,277 @@
+.sb-nav-fixed{
+	background-color: #EEEEEE;
+}
+.sb-topnav{
+	background-color: #FFFFFF;
+}
+
+.color-dash{
+	background-color: #FFFFFF;
+    font-weight: 500;
+    line-height: 2em;
+	
+}
+.color-dash:hover{
+	background-color: #f1f1f1;
+   border: solid 1px #086de0;
+}
+.user-session{
+	line-height: 40px;
+	font-size: 16px;
+	color: #086de0;
+	font-weight: 600;
+	font-family: 'Merriweather', serif;
+}
+.fa-bars{
+	color: #086de0;
+}
+#sidebarToggle:hover{
+background-color: #eaecf4;
+border-radius: 50%;
+}
+.sb-sidenav{
+	background-color: #FFFFFF;
+	color: #333;
+}
+.sb-color{
+	color: #576a7a;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+.sb-sidenav-footer{
+	background-color: #e9ecef;
+}
+.sb-color:hover{
+background-color: #EEEEEE ;
+margin-right: 2px;
+margin-left: 3px;
+border-radius: 3px;
+}
+.sb-color.active{
+	background-color: #EEEEEE ;
+	margin-right: 2px;
+    margin-left: 3px;
+    border-radius: 3px;
+	color: #086de0;
+}
+.hide{
+	display: none;
+}
+span.ml-1{
+	color: #fff !important;
+	font-weight: 700;
+
+}
+.img-profile{
+	width: 32px;
+}
+
+#myInput {
+	background-image: url('../image/searchicon.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:28px;
+	font-size: 15px;
+	border: 1px solid #77B5FE;
+	border-radius: 40px;
+	outline-style: none;
+	width: 380px;
+	padding: 5px  20px 5px 15px;
+	margin-bottom: 0;
+	
+  }
+  @media (max-width:991px){
+	
+	#myInput{
+		width: 100%;
+		border-radius: 50px;
+		font-size: 15px;
+		
+	}
+	
+  }
+
+  
+#myInput1 {
+	background-image: url('../image/searchicon.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size:28px;
+	font-size: 15px;
+	border: 1px solid #77B5FE;
+	border-radius: 40px;
+	outline-style: none;
+	width: 380px;
+	padding: 5px  20px 5px 15px;
+	margin-bottom: 0;
+	
+  }
+  @media (max-width:991px){
+	
+	#myInput1{
+		width: 100%;
+		border-radius: 50px;
+		font-size: 15px;
+		
+	}
+	
+  }
+
+  /*========================== la table=========================*/	
+	.container-fluid h1{
+		color: grey;
+		text-align: center;
+		text-justify: auto;
+
+	 }
+ table.table tr{
+		text-align: center;
+
+	 }
+		
+table.table th{
+	    color: #726464;
+		background-color: #f7f7f7;
+	 }
+ table.table tr:hover{
+		  background-color: #f7f7f7;	
+			  }	
+			  
+
+			 
+
+.pagination li:hover{
+	cursor: pointer;
+}
+
+  .pagination > li {
+	display: inline;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+	/*position: relative;*/
+	float: left;
+	padding: 8px 14px;
+	line-height: 1.42857143;
+	color: #337ab7;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+  }
+
+.pagination span {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	background-color: #fff;
+
+  }
+  .pagination span:hover{
+	background-color: #f1f1f1;
+
+  }
+ 
+
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+color: #fff;
+cursor: default;
+background-color: #007bff !important;
+border: 1px solid #007bff;
+}
+.mb-page{
+	padding-left: 0px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+.pagination-ing li:hover{
+	cursor: pointer;
+}
+
+  .pagination-ing > li {
+	display: inline;
+  }
+  .pagination-ing > li > a,
+  .pagination-ing > li > span {
+	/*position: relative;*/
+	float: left;
+	padding: 8px 14px;
+	line-height: 1.42857143;
+	color: #337ab7;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+  }
+
+.pagination-ing span {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	background-color: #fff;
+
+  }
+  .pagination-ing span:hover{
+	background-color: #f1f1f1;
+
+  }
+ 
+
+  .pagination-ing > .active > a,
+  .pagination-ing > .active > span,
+  .pagination-ing > .active > a:hover,
+  .pagination-ing > .active > span:hover,
+  .pagination-ing > .active > a:focus,
+  .pagination-ing > .active > span:focus {
+color: #fff;
+cursor: default;
+background-color: #007bff !important;
+border-color: #007bff;
+}
+
+.color-icon{
+	color: #808080;
+	
+}
+.color-icon-att{
+	color: #FF0000;
+}
+.color-icon-val{
+	color: #6B8E23;
+}
+
+.icon-awessome{
+	width: 30px;
+	height: 30px;
+	border: 1px #e5e5e5;
+	border-radius: 50%;
+}
+.icon-awessome:hover{
+	 background-color: #C0C0C0 !important;
+	}
+.icon-awessome:focus{
+	outline-color: #086de0;
+}
+
+
+#close{
+	background-color: none;
+	border: none;
+	float: right;
+	margin-right: -25px;
+	font-size: 20px;
+}
+.rows{
+	background-color: #fff;
+}
+.form-control{
+	background-color: #f7f7f7;
+}

@@ -1,0 +1,69 @@
+		body,
+		html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			background-color: rgb(159, 252, 252);
+
+
+		}
+		.user_card {
+			height: 400px;
+			width: 350px;
+			margin-top: 70px;
+			margin-bottom: auto;
+			background-color: #fff; 
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 2px;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			top: -48px;
+			border-radius: 50%;
+			padding: 4px;
+
+		}
+		.brand_logo {
+			height: 100px;
+			width: 100px;
+			border-radius: 50%;
+			border: 2px solid #ced4da;
+			
+		}
+		.form_container {
+			margin-top: 10px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #e9ecef !important;
+			color: rgb(120, 99, 236) !important;
+		}
+		
+		
+		.login_container {
+			padding: 0 2.5rem;
+		}
+	
+		.input-group-text {
+			border: 1px solid #ced4da;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		
+
+		
